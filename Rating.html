@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Milky Way</title>
+
+<script src="icecream.js" defer></script>
+<link rel="stylesheet" href="icecream.css">
+</head>
+<body>
+
+<h1>The Milky Way <img src = "milky-way.png" alt = "Milky Way" style="width:50px;height:50px;"></h1>
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="menu.html">Menu</a></li>
+  <li><a href="order.html">Order</a></li>
+  <li><a href="Rating.html">Rate Us!</a></li>
+  <li><a href="Age Calculator.html">Age Calculator</a></li>
+  <li><a href="Web Safety.html">Web Safety</a></li>
+</ul>
+<form method="get" onsubmit="return ratingClick()">
+   <p>First Name</p>
+  <p><input type="text" name="fname" required></p>
+  <p>Last Name</p>
+  <p><input type="text" name="lname" required></p>
+
+<p>How would you rate your experience?</p>
+
+<p>Amazing!</p>
+<p><input type = "checkbox" id="amazing"/></p>
+<p>Great!</p>
+<p><input type = "checkbox" id="great"/></p>
+<p>Good</p>
+<p><input type = "checkbox"  id="good"/></p>
+<p>Ok.</p>
+<p><input type = "checkbox" id="ok"/></p>
+<p>Bad...</p>
+<p><input type = "checkbox" id="bad"/></p>
+
+<p><input type="submit" value="Submit"></p>  
+
+<p> <span id="result"></span></p>
+
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Milky Way</title>
+
+<script src="icecream.js" defer></script>
+<link rel="stylesheet" href="icecream.css">
+</head>
+<body>
+
+<h1>The Milky Way <img src = "milky-way.png" alt = "Milky Way" style="width:50px;height:50px;"></h1>
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="menu.html">Menu</a></li>
+  <li><a href="order.html">Order</a></li>
+  <li><a href="Rating.html">Rate Us!</a></li>
+  <li><a href="Age Calculator.html">Age Calculator</a></li>
+  <li><a href="Web Safety.html">Web Safety</a></li>
+</ul>
+
+<p>Enter your Order Date!</p>
+<p>
+<label for="day">Day</label>
+<input type="number" id="day" name="day" min="1" max="31" required />
+
+<label for="month">Month</label>
+<input type="number" id="month" name="month" min="1" max="12" required />
+
+<label for="year">Year</label>
+<input type="number" id="year" name="year" min="1960" max="2023" required />
+</p>
+
+<p><input type="submit" id="submitButton" value="Submit" /></p>
+
+<p><span id="trueDate"></span></p>
+
+</body>
+</html>
